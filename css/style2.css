@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;	
+	font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 1.85714;
+    color: #808080;
+    background-color: #fff;
+    font-weight: 300;
+}
+main{
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+header{
+	width: 100%;
+	height: 110px;
+}
+nav{
+	width: 100%;
+	height: 110px;
+	margin: 0 auto;
+	background-color: white;
+	position: fixed;
+	z-index: 2;
+}
+.logo{
+	margin-top: 38px;
+	float: left;
+}
+.logo img{
+	margin-left: 70px;
+}
+.menu{
+	width: auto;
+	height: auto;
+	float: right;
+	margin-top: 38px;
+	margin-right: 70px;
+	
+}
+ul#sub1, ul#sub2{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+	background-color: white;
+}
+#sub1 li{
+	position: relative;
+	float: right;
+	padding-top: 5px;
+	width: 125px;
+	height: 30px;
+	text-align: center;
+	transition: 3s all ease;
+	padding-bottom: 20px;
+	
+}
+
+#sub2 li{
+	text-align: left;
+	text-transform: none;
+    background-color: white;
+	padding-bottom: 20px;
+	
+}
+#sub2 li:first-child{
+	margin-top: 20px;
+}
+#sub1 li a{
+	color: black;
+	text-decoration: none;
+	
+
+}
+
+ul#sub2 {
+	display: none;
+}
+#sub1 li a:hover{
+	color:red;
+}
+
+ul#sub1 li:hover ul#sub2{
+	display: block;
+}
+#ve{
+	width: 1349px;
+	height: 490px;
+}
+.one{
+	width: 1200px;
+	height: 395px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.one h3{
+	line-height: 1.16667;
+    font-size: 36px;
+	text-transform: uppercase;
+    font-weight: 300;
+    color: #0d0d0d;
+	text-align: center;
+}
+.foo{
+	width: 1349px;
+	height: auto;
+	margin: 0 auto;
+}
+.chutrai{
+	width: 500px;
+	height: 248px;
+	float: left;
+}
+.hinhphai{
+	width: 700px;
+	height: 248px;
+	float: left;
+}
+.hinhphai img{
+	margin-top: 50px;
+}
+.chutrai h6{
+	line-height: 1.33333;
+    font-size: 18px;
+	font-weight: 600;
+}
+section#team{
+	width: 100%;
+	height: 400px;
+	
+}
+section#sell{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+	z-index: 1;
+}
+#sell h3{
+	text-align: center;
+	margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #0d0d0d;
+	line-height: 1.16667;
+    font-size: 36px;
+}
+#sell33 h3{
+	text-align: center;
+	margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #0d0d0d;
+	line-height: 1.16667;
+    font-size: 36px;	
+}
+.kieu2{
+	float: left;
+	width: 270px;
+	height: 274px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.anha {
+    padding-bottom: 100px;
+	position: relative;
+    overflow: hidden;
+}
+
+.anha .caption {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: translateY(52px);
+    transition: 250ms ease-in;
+	background-color: #f8f8f8;
+}
+
+.anha .caption>.link {
+    opacity: 0;
+	display: block;
+    padding-top: 15px;
+    margin-top: 13px;
+    border-top: 1px solid #d7d7d7;
+}
+
+
+.anha:hover .caption {
+    transform: translateY(0);
+}
+
+.anha:hover .caption>.link {
+    opacity: 1;
+}
+section#banner{
+	width: 100%;
+	height: 658px;
+	background-color: azure;
+	margin:  0 auto;
+	background-image: url(../images/bg-image-2.jpg);
+}
+.thongtin{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+}
+.chu{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-top: 120px;
+}
+.chu h3 {
+    letter-spacing: 0.1em;
+	color: white;
+	line-height: 1.16667;
+    font-size: 36px;
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.chu h1{
+	color: white;
+	line-height: 1.12;
+    font-size: 50px;
+	margin-top: 0;
+    margin-bottom: 0;
+}
+p.chunho{
+	font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+	color: white;
+}
+.button{
+    padding: 17px 23px;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 0;
+    border-width: 1px;
+	border: 1px solid white;
+	color: white;
+	margin-top: 20px;
+	transition: 250ms all ease-in-out;
+	float: left;
+}
+a.button{
+	text-decoration: none;
+}
+.button:hover{
+	background-color: red;
+	border-color: red;
+}
+
+
